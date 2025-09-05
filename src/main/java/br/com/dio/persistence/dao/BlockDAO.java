@@ -1,4 +1,4 @@
-package br.com.dio.persistence.dao;
+package br.com.dio.dto.persistence.dao;
 
 import lombok.AllArgsConstructor;
 
@@ -6,7 +6,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.time.OffsetDateTime;
 
-import static br.com.dio.persistence.converter.OffsetDateTimeConverter.toTimestamp;
+import static br.com.dio.dto.persistence.converter.OffsetDateTimeConverter.toTimestamp;
 
 @AllArgsConstructor
 public class BlockDAO {

@@ -1,20 +1,20 @@
-package br.com.dio.service;
+package br.com.dio.dto.service;
 
 import br.com.dio.dto.BoardColumnInfoDTO;
-import br.com.dio.exception.CardBlockedException;
-import br.com.dio.exception.CardFinishedException;
-import br.com.dio.exception.EntityNotFoundException;
-import br.com.dio.persistence.dao.BlockDAO;
-import br.com.dio.persistence.dao.CardDAO;
-import br.com.dio.persistence.entity.CardEntity;
+import br.com.dio.dto.exception.CardBlockedException;
+import br.com.dio.dto.exception.CardFinishedException;
+import br.com.dio.dto.exception.EntityNotFoundException;
+import br.com.dio.dto.persistence.dao.BlockDAO;
+import br.com.dio.dto.persistence.dao.CardDAO;
+import br.com.dio.dto.persistence.entity.CardEntity;
 import lombok.AllArgsConstructor;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 
-import static br.com.dio.persistence.entity.BoardColumnKindEnum.CANCEL;
-import static br.com.dio.persistence.entity.BoardColumnKindEnum.FINAL;
+import static br.com.dio.dto.persistence.entity.BoardColumnKindEnum.CANCEL;
+import static br.com.dio.dto.persistence.entity.BoardColumnKindEnum.FINAL;
 
 
 @AllArgsConstructor

@@ -1,7 +1,7 @@
-package br.com.dio.service;
+package br.com.dio.dto.service;
 
 import br.com.dio.dto.CardDetailsDTO;
-import br.com.dio.persistence.dao.CardDAO;
+import br.com.dio.dto.persistence.dao.CardDAO;
 import lombok.AllArgsConstructor;
 
 import java.sql.Connection;

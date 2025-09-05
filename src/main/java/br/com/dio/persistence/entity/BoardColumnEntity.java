@@ -1,4 +1,4 @@
-package br.com.dio.persistence.entity;
+package br.com.dio.dto.persistence.entity;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

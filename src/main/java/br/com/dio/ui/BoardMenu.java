@@ -1,19 +1,19 @@
-package br.com.dio.ui;
+package br.com.dio.dto.ui;
 
 import br.com.dio.dto.BoardColumnInfoDTO;
-import br.com.dio.persistence.entity.BoardColumnEntity;
-import br.com.dio.persistence.entity.BoardEntity;
-import br.com.dio.persistence.entity.CardEntity;
-import br.com.dio.service.BoardColumnQueryService;
-import br.com.dio.service.BoardQueryService;
-import br.com.dio.service.CardQueryService;
-import br.com.dio.service.CardService;
+import br.com.dio.dto.persistence.entity.BoardColumnEntity;
+import br.com.dio.dto.persistence.entity.BoardEntity;
+import br.com.dio.dto.persistence.entity.CardEntity;
+import br.com.dio.dto.service.BoardColumnQueryService;
+import br.com.dio.dto.service.BoardQueryService;
+import br.com.dio.dto.service.CardQueryService;
+import br.com.dio.dto.service.CardService;
 import lombok.AllArgsConstructor;
 
 import java.sql.SQLException;
 import java.util.Scanner;
 
-import static br.com.dio.persistence.config.ConnectionConfig.getConnection;
+import static br.com.dio.dto.persistence.config.ConnectionConfig.getConnection;
 
 @AllArgsConstructor
 public class BoardMenu {

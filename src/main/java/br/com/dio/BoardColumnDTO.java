@@ -1,6 +1,6 @@
 package br.com.dio.dto;
 
-import br.com.dio.persistence.entity.BoardColumnKindEnum;
+import br.com.dio.dto.persistence.entity.BoardColumnKindEnum;
 
 public record BoardColumnDTO(Long id,
                              String name,

@@ -1,4 +1,4 @@
-package br.com.dio.persistence.config;
+package br.com.dio.dto.persistence.config;
 
 import lombok.NoArgsConstructor;
 

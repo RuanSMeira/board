@@ -1,4 +1,4 @@
-package br.com.dio.exception;
+package br.com.dio.dto.exception;
 
 public class CardFinishedException extends RuntimeException{
 

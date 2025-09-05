@@ -1,8 +1,8 @@
-package br.com.dio.persistence.dao;
+package br.com.dio.dto.persistence.dao;
 
 import br.com.dio.dto.BoardColumnDTO;
-import br.com.dio.persistence.entity.BoardColumnEntity;
-import br.com.dio.persistence.entity.CardEntity;
+import br.com.dio.dto.persistence.entity.BoardColumnEntity;
+import br.com.dio.dto.persistence.entity.CardEntity;
 import com.mysql.cj.jdbc.StatementImpl;
 import lombok.RequiredArgsConstructor;
 
@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import static br.com.dio.persistence.entity.BoardColumnKindEnum.findByName;
+import static br.com.dio.dto.persistence.entity.BoardColumnKindEnum.findByName;
 import static java.util.Objects.isNull;
 
 @RequiredArgsConstructor

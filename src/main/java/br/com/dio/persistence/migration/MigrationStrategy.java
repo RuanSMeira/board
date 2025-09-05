@@ -1,4 +1,4 @@
-package br.com.dio.persistence.migration;
+package br.com.dio.dto.persistence.migration;
 
 import liquibase.Liquibase;
 import liquibase.database.jvm.JdbcConnection;
@@ -12,7 +12,7 @@ import java.io.PrintStream;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import static br.com.dio.persistence.config.ConnectionConfig.getConnection;
+import static br.com.dio.dto.persistence.config.ConnectionConfig.getConnection;
 
 @AllArgsConstructor
 public class MigrationStrategy {

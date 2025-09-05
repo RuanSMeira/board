@@ -1,4 +1,4 @@
-package br.com.dio.persistence.entity;
+package br.com.dio.dto.persistence.entity;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-import static br.com.dio.persistence.entity.BoardColumnKindEnum.CANCEL;
-import static br.com.dio.persistence.entity.BoardColumnKindEnum.INITIAL;
+import static br.com.dio.dto.persistence.entity.BoardColumnKindEnum.CANCEL;
+import static br.com.dio.dto.persistence.entity.BoardColumnKindEnum.INITIAL;
 
 @Data
 public class BoardEntity {

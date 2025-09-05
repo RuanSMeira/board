@@ -1,7 +1,7 @@
-package br.com.dio.service;
+package br.com.dio.dto.service;
 
-import br.com.dio.persistence.dao.BoardColumnDAO;
-import br.com.dio.persistence.entity.BoardColumnEntity;
+import br.com.dio.dto.persistence.dao.BoardColumnDAO;
+import br.com.dio.dto.persistence.entity.BoardColumnEntity;
 import lombok.AllArgsConstructor;
 
 import java.sql.Connection;

@@ -1,21 +1,21 @@
-package br.com.dio.ui;
+package br.com.dio.dto.ui;
 
-import br.com.dio.persistence.entity.BoardColumnEntity;
-import br.com.dio.persistence.entity.BoardColumnKindEnum;
-import br.com.dio.persistence.entity.BoardEntity;
-import br.com.dio.service.BoardQueryService;
-import br.com.dio.service.BoardService;
+import br.com.dio.dto.persistence.entity.BoardColumnEntity;
+import br.com.dio.dto.persistence.entity.BoardColumnKindEnum;
+import br.com.dio.dto.persistence.entity.BoardEntity;
+import br.com.dio.dto.service.BoardQueryService;
+import br.com.dio.dto.service.BoardService;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import static br.com.dio.persistence.config.ConnectionConfig.getConnection;
-import static br.com.dio.persistence.entity.BoardColumnKindEnum.CANCEL;
-import static br.com.dio.persistence.entity.BoardColumnKindEnum.FINAL;
-import static br.com.dio.persistence.entity.BoardColumnKindEnum.INITIAL;
-import static br.com.dio.persistence.entity.BoardColumnKindEnum.PENDING;
+import static br.com.dio.dto.persistence.config.ConnectionConfig.getConnection;
+import static br.com.dio.dto.persistence.entity.BoardColumnKindEnum.CANCEL;
+import static br.com.dio.dto.persistence.entity.BoardColumnKindEnum.FINAL;
+import static br.com.dio.dto.persistence.entity.BoardColumnKindEnum.INITIAL;
+import static br.com.dio.dto.persistence.entity.BoardColumnKindEnum.PENDING;
 
 public class MainMenu {
 

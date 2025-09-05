@@ -1,4 +1,4 @@
-package br.com.dio.persistence.converter;
+package br.com.dio.dto.persistence.converter;
 
 import lombok.NoArgsConstructor;
 
